@@ -16,5 +16,26 @@ namespace tp
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Submit_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.label1.Text = "Halo " + this.textBox1.Text;
+        }
+
     }
 }
